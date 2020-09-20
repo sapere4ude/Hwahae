@@ -14,5 +14,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
     }
+    
+    // 여기서 cell 하나만 불러오기
+    // CollectionView -> Datasource에 nuberOfItemsInSection 메서드 사용하기
 }
 
