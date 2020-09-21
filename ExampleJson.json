@@ -1,0 +1,155 @@
+[    
+  {
+    "title" : "화장품 리스트를 보여드립니다!",
+    "value" : [
+      {
+        "homeNumber" : 1,
+        "image_url" : "https://nr-platform.s3.amazonaws.com/uploads/platform/published_extension/branding_icon/275/AmazonS3.png",
+        "title" : "화장품1",
+        "shipping_price" : 2500,
+        "price" : 30000
+      },
+      {
+        "homeNumber" : 1,
+        "image_url" : "https://nr-platform.s3.amazonaws.com/uploads/platform/published_extension/branding_icon/275/AmazonS3.png",
+        "title" : "화장품2",
+        "shipping_price" : 2500,
+        "price" : 33000
+      },
+      {
+        "homeNumber" : 1,
+        "image_url" : "https://nr-platform.s3.amazonaws.com/uploads/platform/published_extension/branding_icon/275/AmazonS3.png",
+        "title" : "화장품3",
+        "shipping_price" : 3400,
+        "price" : 4000
+      },
+      {
+        "homeNumber" : 1,
+        "image_url" : "https://nr-platform.s3.amazonaws.com/uploads/platform/published_extension/branding_icon/275/AmazonS3.png",
+        "title" : "화장품4",
+        "shipping_price" : 2500,
+        "price" : 500000
+      },
+      {
+        "homeNumber" : 1,
+        "image_url" : "https://nr-platform.s3.amazonaws.com/uploads/platform/published_extension/branding_icon/275/AmazonS3.png",
+        "title" : "화장품5",
+        "shipping_price" : 5000,
+        "price" : 302000
+        
+      }
+    ],
+    "type" : 1
+  },
+  {
+    "title" : "여름에 잘 어울리는 화장품",
+    "value" : [
+      {
+        "homeNumber" : 2,
+        "is_brand_new" : 1,
+        "price" : 30200,
+        "title" : "아이템1",
+        "shipping_price" : 2500,
+        "brand_name" : "회사1",
+        "image_url" : "https://nr-platform.s3.amazonaws.com/uploads/platform/published_extension/branding_icon/275/AmazonS3.png"
+      },
+      {
+        "homeNumber" : 2,
+        "is_brand_new" : 1,
+        "price" : 33700,
+        "title" : "아이템2",
+        "shipping_price" : 2500,
+        "brand_name" : "회사2",
+        "image_url" : "https://nr-platform.s3.amazonaws.com/uploads/platform/published_extension/branding_icon/275/AmazonS3.png"
+        
+      },
+      {
+        "homeNumber" : 2,
+        "is_brand_new" : 0,
+        "price" : 554000,
+        "title" : "아이템3",
+        "shipping_price" : 0,
+        "brand_name" : "회사3",
+        "image_url" : "https://nr-platform.s3.amazonaws.com/uploads/platform/published_extension/branding_icon/275/AmazonS3.png"
+      },
+      {
+        "homeNumber" : 2,
+        "is_brand_new" : 1,
+        "price" : 530000,
+        "title" : "아이템4",
+        "shipping_price" : 2500,
+        "brand_name" : "회사4",
+        "image_url" : "https://nr-platform.s3.amazonaws.com/uploads/platform/published_extension/branding_icon/275/AmazonS3.png"
+        
+      },
+      {
+        "homeNumber" : 2,
+        "is_brand_new" : 0,
+        "price" : 312000,
+        "title" : "아이템5",
+        "shipping_price" : 3000,
+        "brand_name" : "회사5",
+        "image_url" : "https://nr-platform.s3.amazonaws.com/uploads/platform/published_extension/branding_icon/275/AmazonS3.png"
+      },
+      {
+        "homeNumber" : 2,
+        "is_brand_new" : 1,
+        "price" : 530000,
+        "title" : "아이템6",
+        "shipping_price" : 2500,
+        "brand_name" : "회사6",
+        "image_url" : "https://nr-platform.s3.amazonaws.com/uploads/platform/published_extension/branding_icon/275/AmazonS3.png"
+      },
+    ],
+    "type" : 2
+  },
+  {
+    "type" : 3,
+    "title" : "dfdfdfdfdfdfdfdf",
+    "value" : [
+        {
+        "homeNumber" : 3,
+        "brand_name" : "brand1",
+        "product_description" : "aaaaaaaaaaaaaa",
+        "image_url" : ""
+        },
+        {
+         "homeNumber" : 3,
+         "brand_name" : "brand2",
+         "product_description" : "bbbbbbbbbbbbbbb",
+         "image_url" : ""
+        },
+        {
+         "homeNumber" : 3,
+         "brand_name" : "brand3",
+         "product_description" : "cccccccccccccccc",
+         "image_url" : ""
+        },
+        {
+         "homeNumber" : 3,
+         "brand_name" : "brand4",
+         "product_description" : "ddddddddddddddddd",
+         "image_url" : ""
+        },
+        {
+         "homeNumber" : 3,
+         "brand_name" : "brand5",
+         "product_description" : "eeeeeeeeeeeeeeeee",
+         "image_url" : ""
+        },
+    ]
+  },
+  {
+      "title" : "dd",
+      "value" : [
+          {
+              "section1" : "랭킹",
+              "section2" : "화해쇼핑",
+              "section3" : "카테고리검색",
+              "section4" : "성분으로 검색",
+          }
+          ],
+      "type": 4
+  }
+
+]

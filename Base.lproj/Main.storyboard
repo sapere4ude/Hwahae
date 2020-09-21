@@ -14,10 +14,25 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1ep-eX-Yb0">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="1ep-eX-Yb0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Jbs-GZ-V5M"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1ep-eX-Yb0" secondAttribute="trailing" id="T6a-it-wUy"/>
+                            <constraint firstItem="1ep-eX-Yb0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nAv-g6-BhK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1ep-eX-Yb0" secondAttribute="bottom" id="wyM-e7-S11"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="9l6-6q-u9M"/>
+                    <connections>
+                        <outlet property="tableView" destination="1ep-eX-Yb0" id="x8t-Mb-fPO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -30,10 +45,25 @@
                     <view key="view" contentMode="scaleToFill" id="bCd-Gv-ba6">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="MRl-4B-gNd">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="SZd-iS-GgU" firstAttribute="trailing" secondItem="MRl-4B-gNd" secondAttribute="trailing" id="1bs-Yb-7od"/>
+                            <constraint firstItem="MRl-4B-gNd" firstAttribute="top" secondItem="SZd-iS-GgU" secondAttribute="top" id="73n-70-gMe"/>
+                            <constraint firstItem="SZd-iS-GgU" firstAttribute="bottom" secondItem="MRl-4B-gNd" secondAttribute="bottom" id="U41-JN-2lh"/>
+                            <constraint firstItem="MRl-4B-gNd" firstAttribute="leading" secondItem="SZd-iS-GgU" secondAttribute="leading" id="xYv-uS-kc1"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="SZd-iS-GgU"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="BYI-bi-43W"/>
+                    <connections>
+                        <outlet property="shoppingTableView" destination="MRl-4B-gNd" id="CnU-mF-axY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OcC-14-Z2y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
